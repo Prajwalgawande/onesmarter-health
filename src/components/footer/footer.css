@@ -1,0 +1,74 @@
+.top_footer{
+    background-color: #f2f2f2;
+    display: flex;
+}
+.blackline_footer{
+    background-color: #f94b5c;
+    width: 36vw;
+    height: 15px;
+    margin: 23px 5px 0 5px;
+}
+.top_footer img{
+    padding: 10px;
+    width: 30vw;
+    height: 10vh;
+    
+}
+.red_footer{
+    background-color: black;
+    width: 36vw;
+    height: 15px;
+    margin: 23px 5px 0 5px;
+}
+
+.ghs {
+    color: #eaeaea;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.footer{
+    display: flex;
+    background-color: #353535;
+    color: white;
+    padding-bottom: 40px;
+}
+.location ,.phone ,.mail{
+    padding: 10px 0 ;
+}
+.mail a{
+    
+    text-decoration: none;
+    color: white;
+}
+i{
+    margin: 0 10px;
+    color: #f94b5c;
+}
+.product_detiles a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    border-bottom: 2px solid gray;
+}
+.heading_foot{
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+}
+
+.division_sublogo{
+    margin-right: 2vw;
+}
+.divisions{
+    margin-left: 100px ;
+    margin-top: 30px;
+}
+.social_links i{
+    color: white;
+    background-color: #f94b5c;
+    font-size: 1.5rem;
+    padding: 8px;
+    cursor: pointer;
+}

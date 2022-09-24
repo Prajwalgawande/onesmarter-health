@@ -1,0 +1,84 @@
+a:hover {
+  cursor: pointer;
+}
+
+textarea {
+    resize: none;
+ }
+ /* chrome */
+ input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.contact_us{
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh 7vw;
+}
+
+
+.banner{
+  background:url("../images//banner-source.jpg");
+  background-size: cover;
+  height: 30vh;
+}
+.banner div{
+  background-color: #f94b5c;
+  opacity: 0.8;
+  height: 30vh;
+  padding: 50px  5vw;
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+
+.send_massage{
+  margin-left: 10vw;
+}
+.contact_infromation h2 , .send_massage h2{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.contact_infromation h3{
+  color: #f94b5c;
+  text-decoration: underline;
+  padding: 10px 0;
+}
+.contact_infromation h4{
+  margin-top: 20px;
+}
+.contact_infromation a{
+  text-decoration: none;
+  color: #f94b5c;
+}
+.send_massage p{
+  padding: 10px 0;
+}
+.send_massage input{
+  font-size: 1rem;
+  padding: 7px 20px;
+  margin: 0 10px 20px 0;
+  width: 40%;
+}
+.send_massage textarea{
+  font-size: 1rem;
+  padding: 10px;
+}
+.submit_button a{
+  padding: 10px 15px;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #f94b5c;
+  border-radius: 5px;
+}

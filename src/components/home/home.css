@@ -1,0 +1,260 @@
+.main_img  img{
+    cursor: pointer;
+    width: 100%;
+}
+
+.osh_container{
+    display: flex;
+    margin: 3rem 0;
+    padding: 0 5rem;
+}
+.osh{
+    height: 80vh;
+    width: 22vw;
+    padding: 30px 20px;
+    text-align: center;
+    background-color:#f7f7f7;
+    margin: 0 10px;
+    
+}
+.highlight{
+    border-top: 4px solid #f94b5c;
+}
+.osh img{
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #f94b5c;
+    padding: 25px;
+}
+.title_osh{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+/* 
+
+preposition section
+
+*/
+
+.perposition_container{
+    border-top:1px solid gray;
+    padding: 3rem 1rem;
+    background: url('../images/background-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.detiles_preposition{
+    display: flex;
+    padding: 0 2rem;
+    margin: 10px 10px;
+}
+.headline_preposition{
+    font-size: 2rem;
+    text-align: center;
+}
+.preposition{
+    padding: 20px 20px ;
+    text-align: center;
+}
+.preposition_title{
+    font-size: 1.3rem;
+    color: #f94b5c;
+    padding: 20px 0;
+    font-weight: 600;
+}
+.preposition img{
+    width: 130px;
+}
+.preposition_desc {
+    color: #999999;
+}
+.headline_preposition span{
+    color: #f94b5c;
+    font-weight: 600
+}
+
+
+/* 
+
+Explaination section
+
+*/
+.explanation_container{
+    background:url("../images/explanation-video.jpg");
+    height: 80vh;
+    border-top: 2px solid #f94b5c;
+}
+.content{
+    position:relative;
+    width: 40vw;
+    height: 60vh;
+    left: 10vw;
+    top: 10vh;
+    background-color: white;
+    border-bottom: 10px solid black;
+    border-left: 10px solid #f94b5c;
+    padding: 10px 0 0 0;
+    border-top-right-radius:30px ;
+}
+.info_explaination{
+    position: relative;
+    
+    margin: 30% 0 2% 4%;
+}
+.heading_explaination{
+    font-size: 1.4rem;
+    margin-left: 4%;
+    font-weight: 600;
+}
+.contact_explaination{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.colored{
+    color: #f94b5c;
+}
+.right_part{
+    position: absolute;
+    left: 50vw;
+    top: 30vh;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.right_part i{
+    font-size: 70px;
+    color: #f94b5c;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid #f94b5c;
+    cursor: pointer;
+}
+
+
+/*
+
+services section
+
+*/
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh 2vw;
+}
+.box{
+    width: 350px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px  rgb(206, 205, 205);
+}
+
+.box img{
+    width: 336px;
+    padding: 7px;
+}
+.title{
+    text-align: center;
+    padding: 25px 0 10px 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:#f94b5c;
+}
+.desc{
+    padding: 8px;
+}
+.detiles{
+    text-align: center;
+}
+.info{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.left , .right{
+    margin: 39vh 0;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/* 
+
+smart health section
+*/
+
+.smartheatlh{
+    background: url("../images/background-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10vh 7vw;
+}
+.heading_sm{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    color: #f94b5c;
+    font-weight: 600
+}
+.subhead_sm{
+    text-align: center;
+    margin: 10px 0;
+}
+.line_sm{
+    width: 40vw;
+    margin-left: 21vw;
+    background-color: #f94b5c;
+    height: 1px;
+    margin-bottom: 20px;
+}
+.first_sm{
+    text-align: left;
+    margin: 30px 0;
+}
+.first_sm span{
+    color: #f94b5c;
+    font-weight: 500;
+}
+
+/* 
+
+Expertise section
+
+
+*/
+.heading_expert{
+    display: flex;
+    margin-top: 15vh;
+    font-size: 2rem;
+}
+.line_st_expert{
+    background-color: gray;
+    height: 1px;
+    margin: 25px 15px 10px 10vw;
+    width: 30vw;
+}
+.line_end_expert{
+    background-color: gray;
+    height: 1px;
+    margin: 25px 5vw 10px 15px  ;
+    width: 30vw;
+}
+.heading_expert b{
+    color: #f94b5c;
+   
+}
+
+
+.first_row_expert , .second_row_expert{
+    display: flex;
+    margin: 5vh 10vw;
+    justify-content: space-between;
+}
+.logo_expert{
+    padding: 0 4.5vw;
+}
+.logo1_expert{
+    padding :0 2vw;
+}

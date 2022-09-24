@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5rem ;
+}
+.navelements li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+.navelements li ul a{
+    text-decoration: none;
+    color: #f94b5c;
+    padding: 5px 10px ;
+    font-weight: 500;
+}
